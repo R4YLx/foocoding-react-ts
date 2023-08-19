@@ -1,0 +1,47 @@
+.wrapper {
+	margin-inline: 4rem;
+	margin-block: 2rem;
+}
+
+.headline {
+	text-align: center;
+}
+
+.form {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+	margin-block-end: 2rem;
+	gap: 1rem;
+}
+
+.text-inputs {
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+}
+
+.text-inputs > * {
+	min-width: 20rem;
+}
+
+textarea {
+	min-height: 5rem;
+}
+
+.btn {
+	min-height: 2rem;
+	min-width: 4rem;
+}
+
+.post-wrapper {
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+}
+
+.post {
+	border: 1px solid #ccc;
+	padding: 1rem;
+}
