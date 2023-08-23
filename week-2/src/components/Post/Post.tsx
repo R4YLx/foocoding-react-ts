@@ -1,4 +1,5 @@
 import { IPost } from '../../types/post.types'
+import Headline from '../Headline/Headline'
 
 import './Post.css'
 
@@ -11,7 +12,7 @@ interface PostItemProps {
 function PostItem({ post, index }: PostItemProps) {
 	return (
 		<div className='post' key={index}>
-			<h3>{post.title}</h3>
+			<Headline element='h3'>{post.title}</Headline>
 			<p>{post.body}</p>
 		</div>
 	)
