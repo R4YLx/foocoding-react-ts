@@ -1,8 +1,16 @@
 import { useState } from 'react'
+import type { IPost } from './types/post.types'
+
+import Form from './components/Form'
+import Post from './components/Post'
+import Headline from './components/Headline/Headline'
+import Wiiiiieee from './components/Wiiiiieee/Wiiiiieee'
+
 import './styles/App.css'
 
 function App() {
-	const [posts, setPosts] = useState<any>([
+	const [awesome, setAwesome] = useState(false)
+	const [posts, setPosts] = useState<IPost[]>([
 		{ title: 'Hello World', body: 'This is my first post' },
 		{ title: 'Pizza is great', body: 'I love pizza' },
 		{ title: 'Coding is fun', body: 'I enjoy coding' },
@@ -21,28 +29,32 @@ function App() {
 		const newPost = { title: newTitle, body: newBody }
 
 		setPosts([...posts, newPost])
+		setAwesome(true)
 
 		element.reset()
+
+		setTimeout(() => {
+			setAwesome(false)
+		}, 1500)
 	}
 
 	return (
 		<div className='wrapper'>
-			<h1 className='headline'>Create new post</h1>
+			{/* You may wonder what this is, try to run it and see for yourself */}
+			{awesome && <Wiiiiieee className='wiiiiie' />}
 
-			<form className='form' onSubmit={handleFormSubmit}>
-				<input name='title' type='text' placeholder='Title here' required />
-				<textarea name='body' placeholder='Write your post here' />
-				<button type='submit' className='btn'>
-					Post
-				</button>
-			</form>
+			<Headline className='headline' element='h1'>
+				Create new post
+			</Headline>
 
+			<Form onSubmit={handleFormSubmit} />
+
+			<Headline element='h2'>Posts</Headline>
+
+			{/* I'm not creating a Posts/PostList component since it will only be used for this case. Nothing wrong with creating a component tho */}
 			<div className='post-wrapper'>
 				{posts.map((post, index) => (
-					<div className='post' key={index}>
-						<h3>{post.title}</h3>
-						<p>{post.body}</p>
-					</div>
+					<Post key={index} post={post} index={index} />
 				))}
 			</div>
 		</div>
