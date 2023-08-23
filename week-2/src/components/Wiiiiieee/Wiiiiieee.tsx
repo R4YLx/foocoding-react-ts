@@ -9,18 +9,18 @@ const Wiiiiieee = ({ className }: { className?: string }) => {
 			<svg id='rainbow' y='58.5'>
 				<defs>
 					<linearGradient id='RainbowGradient' gradientTransform='rotate(90)'>
-						<stop offset='0%' stop-color='#FD1B00' />
-						<stop offset='16.66%' stop-color='#FD1B00' />
-						<stop offset='16.67%' stop-color='#FD9B01' />
-						<stop offset='33.33%' stop-color='#FD9B01' />
-						<stop offset='33.34%' stop-color='#FDEF01' />
-						<stop offset='49.99%' stop-color='#FDEF01' />
-						<stop offset='50.00%' stop-color='#20DB01' />
-						<stop offset='66.66%' stop-color='#20DB01' />
-						<stop offset='66.67%' stop-color='#008AFC' />
-						<stop offset='83.33%' stop-color='#008AFC' />
-						<stop offset='83.34%' stop-color='#6D3FFC' />
-						<stop offset='100%' stop-color='#6D3FFC' />
+						<stop offset='0%' stopColor='#FD1B00' />
+						<stop offset='16.66%' stopColor='#FD1B00' />
+						<stop offset='16.67%' stopColor='#FD9B01' />
+						<stop offset='33.33%' stopColor='#FD9B01' />
+						<stop offset='33.34%' stopColor='#FDEF01' />
+						<stop offset='49.99%' stopColor='#FDEF01' />
+						<stop offset='50.00%' stopColor='#20DB01' />
+						<stop offset='66.66%' stopColor='#20DB01' />
+						<stop offset='66.67%' stopColor='#008AFC' />
+						<stop offset='83.33%' stopColor='#008AFC' />
+						<stop offset='83.34%' stopColor='#6D3FFC' />
+						<stop offset='100%' stopColor='#6D3FFC' />
 					</linearGradient>
 				</defs>
 
