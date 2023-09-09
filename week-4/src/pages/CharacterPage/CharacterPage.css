@@ -1,0 +1,35 @@
+.character-page {
+	display: flex;
+	justify-content: center;
+	position: relative;
+}
+
+.character-back-button {
+	position: absolute;
+	left: 0;
+}
+
+.character-details-container {
+	display: flex;
+	flex-direction: column;
+	padding: 2.5rem;
+	gap: 2rem;
+	border: 1px solid #e5e7eb;
+	background-color: rgba(30, 19, 105, 0.74);
+	border-radius: 10px;
+	min-width: 34rem;
+}
+
+.character-details-image-container {
+	width: 34rem;
+}
+
+.character-details-image {
+	width: 100%;
+	border-radius: 10px;
+}
+
+.details-title {
+	font-size: 1.75rem;
+	margin-block: 1rem;
+}

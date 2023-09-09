@@ -1,0 +1,8 @@
+.page-not-found {
+	display: grid;
+	place-content: center;
+}
+
+.page-not-found-title {
+	text-align: center;
+}

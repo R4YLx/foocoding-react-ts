@@ -1,0 +1,9 @@
+.characters-page-title {
+	margin-block-end: 2rem;
+}
+
+.character-wrapper {
+	display: grid;
+	grid-template-columns: repeat(4, minmax(0, 1fr));
+	gap: 2rem;
+}

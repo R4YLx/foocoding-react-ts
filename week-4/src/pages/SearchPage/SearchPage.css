@@ -1,0 +1,29 @@
+.search-title {
+	text-align: center;
+	margin-block-end: 2rem;
+}
+
+.search-form {
+	display: flex;
+	justify-content: center;
+	gap: 1.25rem;
+	width: 30rem;
+	margin-inline: auto;
+	margin-block-end: 2rem;
+}
+
+.search-label {
+	width: 100%;
+}
+
+.no-results {
+	font-size: 2rem;
+	text-align: center;
+	margin-block: 2rem;
+}
+
+.results-wrapper {
+	display: grid;
+	grid-template-columns: repeat(4, minmax(0, 1fr));
+	gap: 2rem;
+}

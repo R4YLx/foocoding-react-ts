@@ -1,0 +1,40 @@
+:root {
+	font-family: 'Mouse Memoirs', sans-serif;
+	background-color: #0c0a56;
+	color: #f3f3f3;
+	scroll-behavior: smooth;
+}
+
+body {
+	padding: 0;
+	margin: 0;
+	height: 100dvh;
+}
+
+#root {
+	height: 100%;
+	width: 100%;
+}
+
+main {
+	display: grid;
+	grid-template-columns: 20rem 1fr;
+	height: 100%;
+	position: relative;
+}
+
+button {
+	font-family: 'Mouse Memoirs', sans-serif;
+}
+
+.logo {
+	position: fixed;
+	left: 20rem;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	width: 50rem;
+	z-index: -1;
+	fill: #060524;
+}
