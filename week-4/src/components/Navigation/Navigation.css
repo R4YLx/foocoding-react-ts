@@ -1,0 +1,47 @@
+.navigation {
+	padding: 1rem;
+	display: flex;
+	flex-direction: column;
+	gap: 2rem;
+	background-color: #070632;
+}
+
+.page-title {
+	font-size: 6rem;
+	color: inherit;
+}
+
+.title {
+	font-size: 3rem;
+	text-decoration: none;
+	color: inherit;
+}
+
+.title:hover {
+	color: #0c4492;
+}
+
+.active {
+	font-size: 3rem;
+	text-decoration: none;
+	color: #0c4492;
+}
+
+.navigation-list {
+	list-style: none;
+	padding: 0;
+}
+
+.list-item {
+	margin-block-end: 1.75rem;
+}
+
+.item-link {
+	text-decoration: none;
+	color: inherit;
+	font-size: 1.75rem;
+}
+
+.item-link:hover {
+	color: #0c4492;
+}
