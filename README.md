@@ -1,5 +1,8 @@
 # FooCoding React + TS
 
+This is the repo for FooCoding React + TS module.
+Everything we code in class is pushed to this repo.
+
 ## Getting Started
 
 ### Prerequisites
@@ -9,7 +12,7 @@
 
 ### Installation
 
-1. Clone or download the ZIP.
+1. Clone the repo
 
 ```
 git clone https://github.com/R4YLx/foocoding-react-ts.git
