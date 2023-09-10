@@ -2,6 +2,7 @@
 
 This is the repo for FooCoding React + TS module.
 Everything we code in class is pushed to this repo.
+For every class there will be a branch for it.
 
 ## Getting Started
 
